@@ -14,3 +14,4 @@ printf "\e[32;1m     [+]  Instagram:  instagram.com/techpanther   [+]  \e[0m\n"
 printf "\e[32;1m     [+]  Facebook :  facebook.com/techpanther22  [+]  \e[0m\n"
 printf "\e[32;1m     [+]  Blog     :  techpanther.in              [+]  \e[0m\n"
 printf "\e[32;1m     [+]  github   :  github.com/techpanther22[+]  \e[0m\n"
+exit
