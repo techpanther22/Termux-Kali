@@ -21,11 +21,11 @@ mv kali-fs start-kali.sh kali-binds kali.sh ../ -f
 figlet FINISH | lolcat
 printf "\e[31;1m[+]  First time use : \e[0m\n"
 printf "\e[33;1m        [+]  Run '\e[32;1mcd ..\e[33;1m' command \e[0m\n"
-printf "\e[33;1m        [+]  Run '\e[32;1m./start.sh\e[33;1m' command to start Kali  \e[0m\n"
+printf "\e[33;1m        [+]  Run '\e[32;1m./start-kali.sh\e[33;1m' command to start Kali  \e[0m\n"
 printf "\e[0m\n"
 printf "\e[31;1m[+]  How to use : \e[0m\n"
 printf "\e[33;1m        [+]  Open Termux Application \e[0m\n"
-printf "\e[33;1m        [+]  Run '\e[32;1m./start.sh\e[33;1m' command to start Kali  \e[0m\n"
+printf "\e[33;1m        [+]  Run '\e[32;1m./start-kali.sh\e[33;1m' command to start Kali  \e[0m\n"
 printf "\e[0m\n"
 printf "\e[32;1m[+]  Follow me on  [+]  \e[0m\n"
 printf "\e[32;1m     [+]  Youtube  :  youtube.com/techpanther     [+]  \e[0m\n"
