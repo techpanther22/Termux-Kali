@@ -5,12 +5,12 @@ This Script allows you to Install Kali Linux on Android using Termux application
 - <code>apt update </code>
 - <code>apt install git -y</code>
 - <code>git clone https://github.com/techpanther22/Termux-Kali</code>
-- <code>cd Termux-kali</code>
+- <code>cd Termux-Kali</code>
 - <code>chmod +x installkali.sh</code>
 - <code>./installkali.sh</code>
 
 ## Single Command Installation
-<pre><code>apt update && apt install git -y && git clone https://github.com/techpanther22/Termux-Kali && cd Termux-kali && chmod +x installkali.sh && ./installkali.sh</code></pre>
+<pre><code>apt update && apt install git -y && git clone https://github.com/techpanther22/Termux-Kali && cd Termux-Kali && chmod +x installkali.sh && ./installkali.sh</code></pre>
 
 ## First Time Usage
 - <code>cd ..</code>
