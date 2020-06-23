@@ -4,7 +4,10 @@ printf " \e[32;1m[+] Updating packages ... \e[0m\n"
 apt update -y && apt upgrade -y
 printf " \e[32;1m[+] Installing kali... \e[0m\n"
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
-
+mv kali.sh ../kali.sh
+/data/data/com.termux/files/home/kali.sh
+cd ..
+rm -rf /data/data/com.termux/files/home/Termux-Kali
 printf "\e[33;1m        [+]  Run '\e[32;1m./start.sh\e[33;1m' command to start Kali  \e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
