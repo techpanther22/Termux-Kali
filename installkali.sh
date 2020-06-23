@@ -3,10 +3,11 @@ printf "\e[0m\n"
 printf " \e[32;1m[+] Checking Internet Connection\e[0m\n"
 printf "\e[0m\n"
 if ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
-  printf " \e[32;1mInternet is working\e[0m\n"
+  printf " \e[32;1m[+]  Internet is working  [+]\e[0m\n"
 else
-  printf " \e[32;1mInternet is not working\e[0m\n"
-  printf " \e[32;1mExit ...\e[0m\n"
+  printf "\e[31;1mInternet is not working\e[0m\n"
+  printf "\e[31;1mPlease connect to Internet\e[0m\n"
+  printf "\e[31;1mExit ...\e[0m\n"
   exit
 fi
 printf "\e[0m\n"
