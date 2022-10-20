@@ -12,6 +12,8 @@ else
 fi
 printf "\e[0m\n"
 
+printf "hactoberfest"
+
 printf " \e[32;1m[+] Updating packages ... \e[0m\n"
 apt update -y && apt upgrade -y
 printf " \e[32;1m[+] Installing kali... \e[0m\n"
