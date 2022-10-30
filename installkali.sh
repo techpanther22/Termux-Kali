@@ -1,4 +1,5 @@
-# This .sh file will install the KALI in the TERMUX CLI in Android devices.
+# This .sh file will install the KALI in the TERMUX CLI in Android devices
+# Termux is an useful cli tool
 
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 printf "\e[0m\n"
