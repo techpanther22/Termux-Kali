@@ -1,3 +1,5 @@
+# This .sh file will install the KALI in the TERMUX CLI in Android devices.
+
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 printf "\e[0m\n"
 printf " \e[32;1m[+] Checking Internet Connection\e[0m\n"
